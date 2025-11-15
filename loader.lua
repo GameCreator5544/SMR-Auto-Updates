@@ -14,7 +14,7 @@
 
 --Version Checker Start
 
-local v0="1.02";local v1=game:GetService("HttpService");local v2="https://api.jsonbin.io/v3/b/68f3beb6d0ea881f40aa4aa9?meta=false";local v3={["X-Access-Key"]="$2a$10$yWyVBhpnVsM.vpUHlS8GiuVJdQclK0kmBPX5d83SfgV89DKGH1/zi"};local v4,v5=pcall(function() return v1:GetAsync(v2,false,v3);end);if v4 then local v6=v1:JSONDecode(v5);if (v6.version==v0) then print("Version OK!");else wait(5);for v7,v8 in ipairs(game:GetService("Players"):GetPlayers()) do v8:Kick([[SMR CafePOS - Version Outdated
+local v0="1.03";local v1=game:GetService("HttpService");local v2="https://api.jsonbin.io/v3/b/68f3beb6d0ea881f40aa4aa9?meta=false";local v3={["X-Access-Key"]="$2a$10$yWyVBhpnVsM.vpUHlS8GiuVJdQclK0kmBPX5d83SfgV89DKGH1/zi"};local v4,v5=pcall(function() return v1:GetAsync(v2,false,v3);end);if v4 then local v6=v1:JSONDecode(v5);if (v6.version==v0) then print("Version OK!");else wait(5);for v7,v8 in ipairs(game:GetService("Players"):GetPlayers()) do v8:Kick([[SMR CafePOS - Version Outdated
 		
 			Please tell the game owner that this version of SMR CafePOS is outdated.
 			
